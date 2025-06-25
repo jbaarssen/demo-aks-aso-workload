@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: https://ghcr.io/int128/hellopage:latest
+        image: ghcr.io/int128/hellopage:latest
         ports:
         - containerPort: 80
 ---
